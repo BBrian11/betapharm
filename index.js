@@ -233,9 +233,10 @@ app.get("/excel", async (req, res) => {
 cron.schedule("*/15 * * * *", async () => {
   await setDevicesDb();
 });
-
+module.exports = app;
 const PORT = 3000;
 
 app.listen(PORT, () => {
   console.log("Escuchando al puerto", PORT);
 });
+
