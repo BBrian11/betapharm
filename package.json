@@ -33,7 +33,7 @@
     "jspdf": "^2.5.1",
     "moment": "^2.29.4",
     "momentjs": "^2.0.0",
-    "node-cron": "^3.0.2",
+    "node-cron": "^3.0.2"
     
   },
   "devDependencies": {
